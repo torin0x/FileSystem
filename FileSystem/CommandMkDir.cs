@@ -1,6 +1,14 @@
 namespace FileSystem;
-
-public class CommandMkDir
+using System.Windows.Input;
+public class CommandMkDir : ICommand
 {
-    
+
+    public CommandMkDir()
+    {
+        
+    }
+    public void Execute()
+    {
+        
+    }
 }

@@ -1,6 +1,6 @@
 namespace FileSystem;
 
-public abstract class CommandBase
+public interface IOutputwriter
 {
     
 }

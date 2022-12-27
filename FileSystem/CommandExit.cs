@@ -1,6 +1,13 @@
 namespace FileSystem;
-
-public class CommandExit
+using System.Windows.Input;
+public class CommandExit : ICommand
 {
-    
+    public CommandExit()
+    {
+        
+    }
+    public void Execute()
+    {
+        
+    }
 }
